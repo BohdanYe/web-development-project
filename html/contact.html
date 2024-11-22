@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+        <section class="container">
+          <!--
+            <nav class="navbar">
+                <a href="../index.html">Home</a></li>
+                <a href="../html/my_works.html">My Works</a></li>
+                <a href="../html/about.html">About</a></li>
+            </nav>
+          -->
+          <div class="logo"> 
+            <a href="../index.html"> 
+                <img src="../images/logo_image.png" alt="my_logo"> 
+            </a>  
+        </div> 
+        <div class="hamburger-menu"> 
+            <span class="line"></span> 
+            <span class="line"></span> 
+            <span class="line"></span>  
+        </div> 
+        <div class="nav-menu hide"> 
+            <a href="../index.html">Home</a> 
+            <a href="../html/my_works.html">My Works</a> 
+            <a href="../html/about.html">About</a> 
+        </div> 
+        </section>
+        
+    </header>
+    <main>
+      <section class="container">
+        <button id="darkModeToggle" onclick="toggleDarkMode()" class="toggle-button">Toggle Dark Mode</button>
+      </form>
+      </section>
+        <section class="container">
+          
+            <div class="boot_button">
+                <button type="button" class="btn btn-outline-primary">Info</button>
+                <button type="button" class="btn btn-outline-success">Online Consultation</button>
+                <button type="button" class="btn btn-outline-danger">Digital Support</button>
+                <button type="button" class="btn btn-outline-warning">Expert Guidance</button>
+                <button type="button" class="btn btn-outline-info">Ask a Question</button>
+            </div>
+        </section>
+        <section class="container">
+            <h2>Contact Details</h2>
+            <ul>
+                <li>Phone: +353 (123) 456-7890</li>
+                <li>Email: my_portfolio@gmail.com</li>
+                <li><a href="https://www.linkedin.com/in/bohdan-yeriemienko-451a7925a/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+        
+        <section class="container">
+            <h2>Feedback Form</h2>
+            <form class="row g-3 needs-validation" onsubmit="return validateForm()">
+                <div class="col-md-4 position-relative">
+                  <label for="validationTooltip01" class="form-label">First name</label>
+                  <input type="text" class="form-control" id="validationTooltip01" name="name" placeholder="Name">
+                  <div class="valid-tooltip">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4 position-relative">
+                  <label for="validationTooltip02" class="form-label">Last name</label>
+                  <input type="text" class="form-control" id="validationTooltip02" name="surname" placeholder="Surname">
+                  <div class="valid-tooltip">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4 position-relative">
+                  <label for="validationTooltipUsername" class="form-label">Email</label>
+                  <div class="input-group has-validation">
+                    <input type="text" class="form-control" id="validationTooltipEmail" name="email" placeholder="name@mytudublin.ie" > 
+                    <div class="invalid-tooltip"> 
+                      Please write a valid email.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 position-relative">
+                  <label for="validationTooltip03" class="form-label">Your Response</label>
+                  <input type="text" class="form-control" id="validationTooltip03">
+                  <div class="invalid-tooltip">
+                    Please enter your opinion.
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+              </form>
+        </section>
+        
+        <section class="container">
+            <h2>Reviews</h2>
+
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" disabled>
+                <label for="floatingInputDisabled">john_doe5@gmail.com</label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled" disabled></textarea>
+                <label for="floatingTextareaDisabled">John Doe - 5 stars!</label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2Disabled" style="height: 100px" disabled></textarea>
+                <label for="floatingTextarea2Disabled">I recommend his work. He made a great website for me which allowed my business to attract new clients.</label>
+              </div>
+        </section>
+
+        <section class="container">
+          <h2>Contact Page</h2>
+          <ul id="contact-list"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>©2023 Created by Bohdan Yeriemienko</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../script/contact.js"></script>
+</body>
+</html>

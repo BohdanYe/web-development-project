@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../my_website/css/style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header class="header">
+            <div class="bg">
+            <h1 class="text_header">My Portfolio</h1>
+            <p class="text_header">Description of my activities</p>
+        </div>
+        
+        <div class="container">
+            
+            <nav class="navbar"> 
+                <div class="logo"> 
+                    <a href="https://www.linkedin.com/in/bohdan-yeriemienko-451a7925a/"> 
+                        <img src="../my_website/images/logo_image.png" alt="my_logo"> 
+                    </a>  
+                </div> 
+                <div class="hamburger-menu"> 
+                    <span class="line"></span> 
+                    <span class="line"></span> 
+                    <span class="line"></span>  
+                </div> 
+                <div class="nav-menu hide"> 
+                    <a href="../my_website/html/my_works.html">My Works</a> 
+                    <a href="../my_website/html/about.html">About</a> 
+                    <a href="../my_website/html/contact.html">Contact</a> 
+                </div> 
+            </nav> 
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <div id="animateMe" class="animated_text">
+                <span>Good Afternoon!</span>
+                <span>My name is Bohdan Yeriemienko</span>
+                <span>This is my personal portfolio website</span>
+                <button id="darkModeToggle" onclick="toggleDarkMode()" class="toggle-button">Toggle Dark Mode</button>
+            </div>
+        </section>
+       
+        <section class="container">
+            <h1>About myself</h1>
+            <table>
+                <tr>
+                    <td>
+                        <img src="../my_website/images/Software-developer.jpg" alt="description of my specialization" width="200" height="150">
+                    </td>
+                    <td>
+                        <img src="../my_website/images/code-picture.jpg" alt="The first image of coding" width="200" height="150">
+                    </td>
+                    <td>
+                        <img src="../my_website/images/code-picture2.jpg" alt="The second image of coding" width="200" height="150">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <p>Hello, my name is Bohdan Yeriemienko and I am a Software Developer.
+                            I build web-sites, code in C and C# and familiar with Microsoft Office programs.
+                            Also, deal with data analitycs and programming. I always try to move forward and develop.</p>
+                    </td>
+                </tr>
+            </table>
+            <h2>My Programming Languages</h2>
+            <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>C++</li>
+            </ul>
+            
+            <h2>My Projects</h2>
+            <div class="project">
+                <img src="../my_website/images/project1.jpeg" alt="Project 1" width="300" height="200">
+                <h3>Project 1</h3>
+                <p>My first progect was about the software application for the insurance company.
+                    I have created with my team a beta-version of database office program that
+                    identifies what is the cost of insurance for the user's vehicle.</p>
+            </div>
+            
+            <div class="project">
+                <img src="../my_website/images/project2.jpg" alt="Project 2" width="300" height="200">
+                <h3>Project 2</h3>
+                <p>I developed a web-site for the hotel in order to attract more customers.
+                    I used html, css and java script to create a website.</p>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>©2023 Created by Bohdan Yeriemienko</p>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Tilt+Neon&display=swap');
+
+body {
+    background-color: #FFEEDD; 
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    padding: 100px 0;
+    position: relative;
+}
+.text_header{
+    text-align: center;
+    color: #9381FF;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-family: 'Tilt Neon', sans-serif;
+}
+main{
+    background-size: cover;
+}
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+.toggle-button {
+    background-color: rgb(184, 184, 255);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+  
+.toggle-button:hover {
+    background-color: rgb(147, 129, 255);
+}
+*{ 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    transition: all 0.4s; 
+} 
+body{ 
+    font-family: sans-serif; 
+} 
+a{ 
+    text-decoration: none; 
+    color: #9381FF; 
+    font-size: 1.3rem; 
+    font-weight: bold; 
+} 
+  
+/* navbar styling */
+.navbar{ 
+    display: flex; 
+    height: 5rem; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding-top: 1rem; 
+    border-bottom: 2px solid rgb(147, 129, 255); 
+} 
+  
+/* logo style  */
+.logo img{ 
+    width: 4rem; 
+    height: 4rem; 
+    margin-left:1rem; 
+} 
+  
+.hamburger-menu{ 
+    padding-right: 1.5rem; 
+    cursor: pointer; 
+} 
+  
+.hamburger-menu .line{ 
+   display: block; 
+   width:2.5rem; 
+   height: 2px; 
+   margin-bottom: 10px; 
+   background-color: #9381FF; 
+   cursor: pointer; 
+} 
+  
+.nav-menu{ 
+    position: fixed; 
+    width: 94%; 
+    top: 6rem; 
+    left: 18px; 
+    background-color: rgb(184, 184, 255); 
+    font-weight: 600; 
+  
+} 
+.nav-menu a{ 
+    display: block; 
+    text-align: center; 
+    padding: 5px 0; 
+} 
+.nav-menu a:hover{ 
+    background-color: rgb(184, 184, 255); 
+} 
+  
+.hide{ 
+    display: none; 
+} 
+  
+/* for Desktop view  */
+@media screen and (min-width:600px){ 
+    .navbar{ 
+        justify-content: space-around; 
+    } 
+    .nav-menu{ 
+        display: block; 
+        position: static; 
+        width: auto; 
+        margin-right:20px; 
+        background: none; 
+    } 
+    .nav-menu a{ 
+        display: inline-block; 
+        padding: 15px 20px; 
+    } 
+    .nav-menu a:hover{ 
+        background-color: rgb(184, 184, 255); 
+        border-radius: 5px; 
+    } 
+    .hamburger-menu{ 
+        display: none; 
+    } 
+}
+.container {
+    max-width: 960px; 
+    margin: 0 auto; 
+    padding: 10px;
+}
+.navbar a:hover{
+    color:crimson;
+    text-decoration: underline;
+}
+.card{
+    display: inline-block;
+    
+}
+h1{
+    font-family: 'Tilt Neon', sans-serif;
+    color: #9381FF;
+    text-align: center;
+}
+h2 {
+    font-family: 'Tilt Neon', sans-serif;
+    color: #9381FF;
+    text-align: center;
+  }
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #B8B8FF;
+    text-align: center;
+    font-weight: bold;
+}
+img {
+    transition: transform 0.3s ease-in-out;
+    max-width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+img:hover {
+    transform: scale(1.1); 
+    box-shadow: 3px 3px 5px #888;
+}
+.map{
+    text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    font-family: 'Roboto', sans-serif;
+    color: #B8B8FF;
+    text-align: center;
+}
+.project {
+    background-color: #E9E4F5;
+    margin: 20px 0;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid #9381FF;
+    border-radius: 10%;
+} 
+  .project img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+  .project h3 {
+    font-family: 'Tilt Neon', sans-serif;
+    color: #9381FF;
+    text-align: center;
+}
+  .project p {
+    font-family: 'Roboto', sans-serif;
+    color: #9381FF;
+    text-align: center;
+}
+footer {
+    background-color: #E9E4F5;
+    background-size: cover; 
+    color: #fff; 
+    text-align: center;
+    padding: 10px;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+
+}
